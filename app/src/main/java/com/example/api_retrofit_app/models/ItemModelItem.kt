@@ -1,0 +1,1 @@
+package com.example.api_retrofit_app.modelsdata class ItemModelItem(    val albumId: Int,    val id: Int,    val thumbnailUrl: String,    val title: String,)

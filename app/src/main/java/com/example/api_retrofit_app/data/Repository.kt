@@ -1,0 +1,1 @@
+package com.example.api_retrofit_app.dataimport com.example.api_retrofit_app.models.ItemModelListimport retrofit2.Responseclass Repository {    suspend fun getListPhotos(): Response<ItemModelList> {        return RetrofitInstance.api.getItemListFromApi()    }}

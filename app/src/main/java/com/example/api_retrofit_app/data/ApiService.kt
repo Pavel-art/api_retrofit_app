@@ -1,0 +1,1 @@
+package com.example.api_retrofit_app.dataimport com.example.api_retrofit_app.models.ItemModelListimport retrofit2.Responseimport retrofit2.http.GETinterface ApiService {   @GET("/photos")   suspend fun getItemListFromApi(): Response<ItemModelList>}
